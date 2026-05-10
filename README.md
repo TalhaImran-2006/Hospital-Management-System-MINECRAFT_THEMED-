@@ -28,7 +28,7 @@ The backbone of the project consists of 14 modular header files, each handling a
 8. **Storage.h**: A custom template-based dynamic array (Vector alternative) used for manual memory management of all entities.
 9. **FileHandler.h**: Manages Data Persistence. Reads/Writes all entities to `.txt` files to ensure data is saved between sessions.
 10. **LogicSystem.h**: The "Brain" of the app. Handles authentication logic, sorting algorithms for reports, and session management.
-11. **Validator.h**: Uses RegEx and string parsing to validate Dates (DD-MM-YYYY), Time Slots, and Numeric inputs.
+11. **Validator.h**: Uses manual character parsing and validation logic to validate Dates (DD-MM-YYYY), Time Slots, and Numeric inputs.
 12. **SecurityLog.h**: Logs every login attempt and critical system change to a dedicated `security_log.txt`.
 13. **HospitalException.h**: Custom exception classes (e.g., `InsufficientFundsException`, `InvalidInputException`) for robust error handling.
 14. **GraphicsEngine.h**: Declares the main rendering loop and SFML window configurations.
